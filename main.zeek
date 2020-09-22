@@ -3,15 +3,15 @@
 @load policy/frameworks/intel/seen
 @load policy/frameworks/intel/do_notice
 redef Intel::read_files += {
-	"/usr/local/zeek/share/zeek/site/Zeek-Intelligence-Feeds/abuse-ch-ipblocklist.intel",
-	"/usr/local/zeek/share/zeek/site/Zeek-Intelligence-Feeds/alienvault.intel",
-	"/usr/local/zeek/share/zeek/site/Zeek-Intelligence-Feeds/binarydefense.intel",
-	"/usr/local/zeek/share/zeek/site/Zeek-Intelligence-Feeds/compromised-ips.intel",
-	"/usr/local/zeek/share/zeek/site/Zeek-Intelligence-Feeds/covid.intel",
-	"/usr/local/zeek/share/zeek/site/Zeek-Intelligence-Feeds/dom-bl.intel",
-	"/usr/local/zeek/share/zeek/site/Zeek-Intelligence-Feeds/illuminate.intel",
-	"/usr/local/zeek/share/zeek/site/Zeek-Intelligence-Feeds/openphish.intel",
-	"/usr/local/zeek/share/zeek/site/Zeek-Intelligence-Feeds/predict_intel.intel",
-	"/usr/local/zeek/share/zeek/site/Zeek-Intelligence-Feeds/rutgers.intel",
-	"/usr/local/zeek/share/zeek/site/Zeek-Intelligence-Feeds/tor-exit.intel"
+	"/opt/zeek/share/zeek/site/Zeek-Intelligence-Feeds/abuse-ch-ipblocklist.intel",
+	"/opt/zeek/share/zeek/site/Zeek-Intelligence-Feeds/alienvault.intel",
+	"/opt/zeek/share/zeek/site/Zeek-Intelligence-Feeds/binarydefense.intel",
+	"/opt/zeek/share/zeek/site/Zeek-Intelligence-Feeds/compromised-ips.intel",
+	"/opt/zeek/share/zeek/site/Zeek-Intelligence-Feeds/covid.intel",
+	"/opt/zeek/share/zeek/site/Zeek-Intelligence-Feeds/dom-bl.intel",
+	"/opt/zeek/share/zeek/site/Zeek-Intelligence-Feeds/illuminate.intel",
+	"/opt/zeek/share/zeek/site/Zeek-Intelligence-Feeds/openphish.intel",
+	"/opt/zeek/share/zeek/site/Zeek-Intelligence-Feeds/predict_intel.intel",
+	"/opt/zeek/share/zeek/site/Zeek-Intelligence-Feeds/rutgers.intel",
+	"/opt/zeek/share/zeek/site/Zeek-Intelligence-Feeds/tor-exit.intel"
 };
